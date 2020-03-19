@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.Common", "RozvozJidla.GeoApi.Common\RozvozJidla.GeoApi.Common.csproj", "{82FEDE8F-38B4-44DE-B20E-D229DCECB223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.Orchestration", "RozvozJidla.GeoApi.Orchestration\RozvozJidla.GeoApi.Orchestration.csproj", "{BA571A9B-7753-4347-8577-9481E2AF92A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.WebAPI", "RozvozJidla.GeoApi.WebAPI\RozvozJidla.GeoApi.WebAPI.csproj", "{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FEDE8F-38B4-44DE-B20E-D229DCECB223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FEDE8F-38B4-44DE-B20E-D229DCECB223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FEDE8F-38B4-44DE-B20E-D229DCECB223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FEDE8F-38B4-44DE-B20E-D229DCECB223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA571A9B-7753-4347-8577-9481E2AF92A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA571A9B-7753-4347-8577-9481E2AF92A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA571A9B-7753-4347-8577-9481E2AF92A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA571A9B-7753-4347-8577-9481E2AF92A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80AF120D-0614-401D-8F86-19B31B7471B2}
+	EndGlobalSection
+EndGlobal
