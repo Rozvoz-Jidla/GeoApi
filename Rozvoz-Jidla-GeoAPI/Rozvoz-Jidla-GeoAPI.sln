@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.Orchestr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.WebAPI", "RozvozJidla.GeoApi.WebAPI\RozvozJidla.GeoApi.WebAPI.csproj", "{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozvozJidla.GeoApi.Orchestration.Tests", "RozvozJidla.GeoApi.Orchestration.Tests\RozvozJidla.GeoApi.Orchestration.Tests.csproj", "{432FBD9B-15EA-4B15-B923-29EC3F28AB4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{278559ED-D2B8-4F12-BA54-67EAE8FB40BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6505A37B-0EF7-49DA-B5FB-62ACC7F3FCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432FBD9B-15EA-4B15-B923-29EC3F28AB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432FBD9B-15EA-4B15-B923-29EC3F28AB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432FBD9B-15EA-4B15-B923-29EC3F28AB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432FBD9B-15EA-4B15-B923-29EC3F28AB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{432FBD9B-15EA-4B15-B923-29EC3F28AB4F} = {278559ED-D2B8-4F12-BA54-67EAE8FB40BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80AF120D-0614-401D-8F86-19B31B7471B2}

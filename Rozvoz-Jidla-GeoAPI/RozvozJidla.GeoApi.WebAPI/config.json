@@ -1,0 +1,6 @@
+{
+  "DatabaseConfiguration": {
+    "ConnectionString": "CONNECTION_STRING",
+    "DatabaseName": "DATABASE_NAME"
+  }
+}
