@@ -4,5 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RozvozJidla.GeoApi.Common\RozvozJidla.GeoApi.Common.csproj" />
+    <ProjectReference Include="..\RozvozJidla.GeoApi.Orchestration\RozvozJidla.GeoApi.Orchestration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 
 </Project>

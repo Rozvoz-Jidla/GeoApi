@@ -3,3 +3,11 @@
 ################################################################################
 
 /Rozvoz-Jidla-GeoAPI/.vs/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Common/bin/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Common/obj/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Orchestration/bin/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Orchestration/obj/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Orchestration.Tests/bin/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.Orchestration.Tests/obj/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.WebAPI/bin/
+/Rozvoz-Jidla-GeoAPI/RozvozJidla.GeoApi.WebAPI/obj/

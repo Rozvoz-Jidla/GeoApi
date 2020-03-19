@@ -9,6 +9,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RozvozJidla.GeoApi.Common.Configuration;
+using RozvozJidla.GeoApi.Common.Models;
+using RozvozJidla.GeoApi.Common.Orchestrations;
+using RozvozJidla.GeoApi.Common.Repository;
+using RozvozJidla.GeoApi.Orchestration.Orchestrations;
+using RozvozJidla.GeoApi.Orchestration.Repository;
+using RozvozJidla.GeoApi.WebAPI.Configuration;
 
 namespace RozvozJidla.GeoApi.WebAPI
 {
@@ -25,6 +32,11 @@ namespace RozvozJidla.GeoApi.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton(typeof(IConfigurationResolver<>), typeof(ConfigurationResolver<>));
+            services.AddScoped<IDeliveryAreaRepository, DeliveryAreaRepository>();
+            services.AddScoped<IDeliveryProvidersCache, DeliveryProvidersCacheRepository>();
+            services.AddSingleton<IDeliveryProvidersCache, DeliveryProvidersCacheRepository>();
+            services.AddScoped<IDeliveryAreaOrchestration, DeliveryAreaOrchestration>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
